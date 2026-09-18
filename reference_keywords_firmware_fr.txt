@@ -1,0 +1,11 @@
+C, C++, programmation orientee objet, pointeurs, allocation dynamique, gestion memoire.
+Microcontroleur, STM32, ARM Cortex-M, GPIO, entrees sorties numeriques, convertisseur analogique numerique, PWM, timers, interruptions, DMA.
+UART, liaison serie, I2C, SPI, bus CAN, Modbus, protocole de trames, bus de terrain.
+RTOS, FreeRTOS, Zephyr, temps reel, ordonnancement de taches, multithread, programmation concurrente, semaphores, mutex.
+Bootloader, mise a jour firmware, driver, pilote materiel, datasheet, schema electronique, oscilloscope, analyseur logique, JTAG, SWD, debogage materiel.
+Linux embarque, Yocto, Buildroot, BSP, cross-compilation, toolchain, u-boot, kernel Linux, device tree.
+Git, GitHub, integration continue, CI/CD, Jenkins, CMake, Make, tests unitaires, revue de code, methode agile, Scrum, Docker, conteneurisation.
+Conception electronique, PCB, KiCad, routage, prototypage, assemblage electronique.
+Cycle en V, ISO 26262, IEC 61508, surete de fonctionnement, validation, verification.
+Anglais technique, autonomie, rigueur, resolution de problemes, travail en equipe.
+Ingenieur, diplome d'ingenieur, master, ecole d'ingenieurs, RNCP niveau 7, Bac+5, informatique industrielle, electronique, systemes embarques.

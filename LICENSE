@@ -1,0 +1,37 @@
+This project's engine/ directory is a derivative of ats-screener
+(https://github.com/sunnypatell/ats-screener), used and modified under the
+MIT License below. The original project's LLM-based features (llm/*, the
+web UI, Firebase/LDAP auth, hosted API routes) were removed entirely; only
+the deterministic, rule-based parser + scorer was kept, then localized for
+French-language resumes (section headers, dates, degree vocabulary, action
+verbs, accent folding — see comments marked "FR localization" throughout
+engine/ for the specific changes and why each was made).
+
+MIT License
+
+Copyright (c) 2026 Sunny Patel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+The html_to_text.py, main.ts (CLI wrapper), and reference_keywords_firmware_fr.txt
+files, and all "FR localization" patches inside engine/, are original work
+written for this project and carry no additional license restriction beyond
+the above (treat them as MIT too).
